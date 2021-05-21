@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cc6bc39470.js" crossorigin="anonymous"></script>
     <title>Log-in page</title>
 </head>
 <body>
+  
+    <div class="image">
+        <img src="images/panda.jpg">
+    </div>
     
+    <form class="loginpage">
+        <h2>welcome to lc_Collections</h2>
+        <label for="email">Email or phone</label><br>
+        <input type="email" id="email" placeholder="Type email or Phone here"><br>
+        <label for="password">password</label><br>
+        <input type="password" id="password" placeholder="Type password here">
+      
+        <p>Login with Facebook<i class="fab fa-facebook"></i></p>
+        <p>Login with Twitter <i class="fab fa-twitter"></i></p>
+        <p>Login with Google<i class="fab fa-google"></i></p>
+        <button onclick="location.href='register.html';">Register Account</button>
+    </form>
+
     
+
+
+  <!--javascript -->
+  <script src="index.js"></script>  
 </body>
 </html>

@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@300&display=swap" rel="stylesheet">
     
-    <title>login page</title>
+    <title>register account</title>
 </head>
 <body>
    
@@ -27,6 +27,8 @@
   <input type="text" id="email" name="email" value="email"><br>
   <label for="phone">Phone Number</label><br>
   <input type="text" id="phone" name="phone" value="phone"><br>
+  <label for="password">password</label><br>
+  <input type="password" id="password" ><br>
   <label for="date">Date of birth</label><br>
   <input type="date" name="date"><br>
   <label for="country">Country</label><span style="color: rgb(44, 241, 54) !important; display: inline; float: none;">*</span>      
@@ -287,10 +289,12 @@
     </form>
     <div class="btn">
     <button >Register Account</button>
+
     <p>Already registered?</p>
-    <button>Login</button>
+    <button onclick="location.href='login.html';">Login</button>
 </div>
     </div>
+
 
     <!--link to js-->
     <script src="index.js"></script>
